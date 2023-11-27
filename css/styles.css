@@ -32,9 +32,24 @@ body {
     color: #434455;
 }
 
+.container {
+    max-width: 1440px;
+        padding-left: 156px;
+        padding-right: 156px;
+        margin-left: ;
+        margin-right:
+}
+
 header {
     background-color: #E7E9FC;
     line-height: 60px;
+    height: 72px;
+    display: flex;
+        width: 1440px;
+        height: 72px;
+        justify-content: center;
+        align-items: center;
+        flex-shrink: 0;
 }
 
 .header-logo {
@@ -46,6 +61,8 @@ header {
         color: #4D5AE5;
         text-decoration: none;
         text-transform: uppercase;
+        margin-right: 76px;
+        margin-left: 156px;
 }
 
 .logo-header-text {
@@ -57,8 +74,15 @@ header {
         color: #2E2F42;
 }
 
+
 .nav-list{
     list-style-type: none;
+    display: inline-flex;
+        align-items: flex-start;
+        gap: 40px;
+        width: 261px;
+        height: 24px;
+        margin-right: 832px;
 }
 
 .nav-links-list-content {
@@ -109,6 +133,9 @@ header {
 
 .offer {
     background-color: #2E2F42;
+    width: 1440px;
+        height: 600px;
+        flex-shrink: 0;
 }
 
 .offer-text {
@@ -119,6 +146,10 @@ header {
         letter-spacing: 0.02em;
         text-align: center;
         color: #FFFFFF;
+        padding-top : 188px;
+        padding-right: 472px;
+        padding-bottom: 292px;
+        padding-left: 472px;
 }
 
 .order-style {
@@ -130,6 +161,18 @@ header {
         line-height: 24px;
         letter-spacing: 0.04em;
         text-align: center;
+        display: inline-flex;
+            padding: 16px 32px;
+            align-items: flex-start;
+            gap: 10px;
+            border-radius: 4px;
+                background: var(--IRIS, #4D5AE5);
+                box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+                margin-top: 356px;
+                margin-right: 635px;
+                margin-bottom: 188px;
+                margin-left: 636px;
+
 }
 
 .order-style:hover {
