@@ -39,20 +39,19 @@ body {
   padding: 0 15px 0 15px;
 }
 
-header {
+.header-container {
   background-color: #e7e9fc;
   line-height: 60px;
   display: flex;
   width: 1440px;
   height: 72px;
-  justify-content: center;
-  align-items: center;
-  flex-shrink: 0;
   border-bottom: 1px solid var(--CORNFLOWER, #e7e9fc);
 }
 
 .navigation-container {
   display: flex;
+  align-items: center;
+  gap: 40px;
 }
 
 .header-logo {
@@ -64,8 +63,8 @@ header {
   color: #4d5ae5;
   text-decoration: none;
   text-transform: uppercase;
-  padding-top: 24px;
-  padding-right: 1169px;
+  margin-top: 24px;
+  margin-right: 76px;
 }
 
 .logo-header-text {
@@ -84,7 +83,6 @@ header {
   gap: 40px;
   width: 261px;
   height: 24px;
-  margin-right: 832px;
 }
 
 .nav-links-list-content {
@@ -95,6 +93,8 @@ header {
   line-height: 24px;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 
 .nav-links-list-content:hover {
@@ -113,7 +113,10 @@ header {
 }
 
 .address-links-list {
+  display: flex;
   list-style-type: none;
+  gap: 40px;
+  margin-left: 332px;
 }
 
 .address-links-list-content {
