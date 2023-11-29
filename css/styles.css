@@ -45,6 +45,13 @@ body {
   border-bottom: 1px solid var(--CORNFLOWER, #e7e9fc);
 }
 
+.container-head {
+  width: 1158px;
+  margin: 0 auto;
+  padding: 0 15px 0 15px;
+  display: flex;
+}
+
 .navigation-container {
   display: flex;
   align-items: center;
@@ -278,22 +285,22 @@ body {
   color: #434455;
 }
 
-.our-portfolio {
-  font-size: 36px;
-  font-weight: 700;
-  line-height: 1.11;
-  letter-spacing: 0.02em;
-  text-align: center;
-  color: #2e2f42;
-  text-transform: capitalize;
-}
-
 .product-list {
   list-style-type: none;
   display: flex;
   flex-wrap: wrap;
   column-gap: 24px;
   row-gap: 48px;
+}
+
+.portfolio-list-item {
+  width: calc((100% - 48px) / 3);
+}
+
+.product-text-box {
+  padding: 32px 16px;
+  border: 1px solid #e7e9fc;
+  border-top: none;
 }
 
 .product-name {
@@ -303,6 +310,7 @@ body {
   letter-spacing: 0.02em;
   text-align: left;
   color: #2e2f42;
+  margin-bottom: 8px;
 }
 
 .product-type {
@@ -316,6 +324,20 @@ body {
 
 .foot-style {
   background-color: #2e2f42;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.footer-logo {
+  font-family: Raleway, sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  color: #4d5ae5;
+  text-decoration: none;
+  text-transform: uppercase;
+  display: inline-block;
 }
 
 .logo-footer-text {
@@ -329,4 +351,5 @@ body {
   letter-spacing: 0.02em;
   text-align: left;
   color: #f4f4fd;
+  max-width: 264px;
 }
