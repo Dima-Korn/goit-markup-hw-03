@@ -186,7 +186,16 @@ body {
 }
 
 .visually-hidden {
-  visibility: hidden;
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
 }
 
 .advantages-list {
@@ -229,14 +238,24 @@ body {
   text-align: center;
   text-transform: capitalize;
   color: #2e2f42;
+  margin-bottom: 72px;
 }
 
 .members-list {
   list-style-type: none;
+  display: flex;
+  gap: 24px;
 }
 
 .team-card {
   background-color: #ffffff;
+  width: calc((100% - 72px) / 4);
+  border-radius: 0px 0px 4px 4px;
+}
+
+.team-card-text-content {
+  padding-top: 32px;
+  padding-bottom: 32px;
 }
 
 .team-member-name {
@@ -246,6 +265,7 @@ body {
   letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
+  margin-bottom: 8px;
 }
 
 .team-member-position {
