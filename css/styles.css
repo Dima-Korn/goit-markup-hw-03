@@ -40,8 +40,8 @@ body {
 
 .header-container {
   background-color: #e7e9fc;
-  line-height: 60px;
   display: flex;
+  align-items: center;
   border-bottom: 1px solid var(--CORNFLOWER, #e7e9fc);
 }
 
@@ -180,7 +180,8 @@ body {
 }
 
 .adv-section,
-.team-members {
+.team-members,
+.portfolio-section {
   padding-top: 120px;
   padding-bottom: 120px;
 }
@@ -289,6 +290,10 @@ body {
 
 .product-list {
   list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 24px;
+  row-gap: 48px;
 }
 
 .product-name {
